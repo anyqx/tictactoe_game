@@ -1,0 +1,29 @@
+.board {
+    width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color: #d3d3d3;
+    border: 5px solid gray;
+
+    /* text inside the box */
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.box:hover {
+    cursor: pointer;
+    transform: translatex(1px);
+} 
+
+#announce-result {
+    display: flex;
+    font-size: 30px;
+    
+}
